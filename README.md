@@ -64,3 +64,19 @@ Before building dashboards, the dataset was cleaned and transformed:
               YEAR(Housing[date]) = YEAR(MAX(Housing[date])) - 1)
 RETURN
     IF(prevYear <> 0, (currYear - prevYear) / prevYear, BLANK())
+
+--- 
+
+# DashBoard
+
+## House market Overview
+<img width="1172" height="650" alt="House market overview" src="https://github.com/user-attachments/assets/60dacc10-253e-4bba-9b81-070e43bc4ab5" />
+
+## Sales performance
+<img width="1156" height="659" alt="sales performance" src="https://github.com/user-attachments/assets/2e99b665-da53-4bff-83a5-aebf0c07f966" />
+
+## House type analysis
+<img width="1183" height="693" alt="House type analysis" src="https://github.com/user-attachments/assets/01e57e0d-6d59-4f09-9cf2-a4d96d79801c" />
+
+
+
